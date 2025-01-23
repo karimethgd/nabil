@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تسجيل الدخول إلى فيسبوك</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .login-container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 360px;
+        }
+
+        .login-header {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #1877f2;
+        }
+
+        .input-field {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .login-button {
+            width: 100%;
+            padding: 12px;
+            background-color: #1877f2;
+            border: none;
+            color: white;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .login-button:hover {
+            background-color: #165eab;
+        }
+
+        .forgot-password {
+            text-align: center;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+
+        .forgot-password a {
+            color: #1877f2;
+            text-decoration: none;
+        }
+
+        .sign-up-link {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .sign-up-link a {
+            color: #1877f2;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div class="login-container">
+    <div class="login-header">تسجيل الدخول إلى فيسبوك</div>
+    
+    <form action="#" method="POST">
+        <input type="email" class="input-field" placeholder="البريد الإلكتروني أو رقم الهاتف" required><br>
+        <input type="password" class="input-field" placeholder="كلمة السر" required><br>
+        
+        <button type="submit" class="login-button">تسجيل الدخول</button>
+    </form>
+
+    <div class="forgot-password">
+        <a href="#">هل نسيت كلمة السر؟</a>
+    </div>
+
+    <div class="sign-up-link">
+        <p>ليس لديك حساب؟ <a href="#">إنشاء حساب جديد</a></p>
+    </div>
+</div>
+
+</body>
+</html>
